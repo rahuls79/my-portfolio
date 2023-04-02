@@ -1,0 +1,104 @@
+.hero {
+  margin-top: 20px;
+}
+
+/* .hero-header-btns{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 382.9px;
+height: 14.58px;
+left: 370px;
+top: 41px;
+} */
+
+.hero-profile {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+/* .hero-profile-data{ */
+/* width: 100%; */
+/* padding-right: 40px; */
+/* } */
+
+.hero-profile-dataHead p {
+  font-size: xxx-large;
+  font-weight: bolder;
+  /* width: 120%; */
+}
+
+.hero-profile-dataDesc p {
+  font-size: x-large;
+  /* width: 120%; */
+}
+
+.hero-profile-data {
+  width: 742px;
+}
+
+.hero-profile-img {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: center;
+  /* width: 50%; */
+  /* width: 733px; */
+}
+
+.hero-profile-img img {
+  /* width: 55%; */
+  width: 394px;
+  margin-top: 45px;
+  /* padding-top: 45px; */
+  /* border-radius: 14px; */
+  border-radius: 194px;
+  margin-bottom: 45px;
+  /* position: absolute; */
+  /* width: 733px;
+    height: 541px;
+    left: 875px;
+    top: 141px; */
+}
+
+.hero-profile-dataContact {
+  /* display: flex; */
+  margin-top: 10px;
+}
+
+.hero-profile-dataContact img {
+  width: 7%;
+  margin-right: 46px;
+}
+
+@media (min-width: 250px) and (max-width: 800px) {
+  /* .hero-profile {
+    flex-direction: column;
+    align-items: center;
+  } */
+  .hero-profile-img img {
+    width: 200px;
+  }
+  .hero-profile-dataContact img {
+    margin-top: 20px;
+    width: 13%;
+    margin-right: 38px;
+  }
+  .hero-profile-dataHead p {
+    font-size: xx-large;
+  }
+
+  .hero-profile-dataDesc p {
+    font-size: larger;
+  }
+  #gmail {
+    margin-right: 0;
+  }
+}

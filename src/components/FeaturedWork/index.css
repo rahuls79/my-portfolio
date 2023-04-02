@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
+
+p {
+  font-family: poppins;
+}
+
+.projectWork {
+  display: flex;
+  /* gap: 100px; */
+  border-style: solid;
+  border-right: 2px;
+  border-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: 7px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
+.featuredWorks {
+  background-color: black;
+  padding: 42px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+#featuredWorks {
+  color: rgb(255, 255, 255);
+
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 6px;
+  padding-bottom: 20px;
+}
+
+/* .featuredWorks p {
+  color: azure;
+} */
+
+.projectImg img {
+  width: 327px;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+#projectData {
+  /* width: 782px; */
+  padding-left: 50px;
+  /* padding-top: 50px; */
+  padding-bottom: 25px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+#projectHead {
+  padding-top: 25px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.projectDesc {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 1059px;
+  border-radius: 10px 0 0 10px;
+  padding: 0.2px;
+}
+
+@media (min-width: 250px) and (max-width: 800px) {
+  .projectImg img {
+    width: 100%;
+  }
+  .projectDesc {
+    border-radius: 10px 10px 0 0px;
+  }
+  .projectImg img {
+    border-radius: 0 0 10px 10px;
+  }
+  #projectData {
+    font-size: 12px;
+  }
+  .featuredWorks {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

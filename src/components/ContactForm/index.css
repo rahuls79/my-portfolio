@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+
+.contactMe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contactDetails {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 300px; */
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.contactHeading {
+  display: flex;
+  /* align-content: space-around; */
+  justify-content: space-around;
+}
+
+.contactHeading p {
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.name {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+}
+
+.name input {
+  /* width: 360px;
+  height: 40px; */
+  margin: 15px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.501);
+  border: solid;
+  border-color: rgb(181, 186, 186);
+  padding: 10px 20px;
+}
+
+.contact input {
+  margin: 15px;
+  border-radius: 5px;
+  background-color: rgba(253, 255, 255, 0.573);
+  border: solid;
+  border-color: rgb(181, 186, 186);
+  padding: 10px 20px;
+}
+
+/* #subject {
+  width: 290px;
+  height: 40px;
+} */
+
+/* #email {
+  width: 430px;
+  height: 40px;
+} */
+
+.message {
+  display: flex;
+  justify-content: space-around;
+}
+
+.message textarea {
+  /* width: 758px;
+  height: 230px; */
+  margin: 15px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.16);
+  border: solid;
+  border-color: rgb(181, 186, 186);
+  resize: none;
+  width: 397px;
+  height: 105px;
+  padding: 10px 20px;
+}
+
+.message textarea::placeholder {
+  font-size: 16px;
+  font-style: normal;
+  font-family: poppins;
+  height: 50px;
+}
+
+input::placeholder {
+  font-family: poppins;
+  font-size: 16px;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#submit-btn {
+  width: 135px;
+  height: 48px;
+  /* border-radius: 9px; */
+  background-color: rgb(0, 0, 0);
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  font-family: poppins;
+  font-weight: 400;
+  cursor: pointer;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 250px) and (max-width: 800px) {
+  .message textarea {
+    width: 150px;
+    resize: vertical;
+  }
+  form {
+    /* align-items: flex-start; */
+    padding: 0 65px;
+  }
+
+  /* #submit-btn {
+    margin-left: 42px;
+  } */
+  .contact {
+    display: block;
+  }
+  .name {
+    display: block;
+  }
+  .contactMe {
+    padding: 0 30px;
+  }
+}
